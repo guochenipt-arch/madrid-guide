@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 馬德里商標國際註冊全指南 & 智能決策系統</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    
+    /* PDF Print Styles */
+    @media print {
+      body {
+        background: white !important;
+        color: black !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .print-only {
+        display: block !important;
+      }
+      .page-break {
+        page-break-before: always;
+      }
+      .card-break {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+      }
+      /* Reset grid layouts for single column clean print */
+      .print-grid-1 {
+        display: block !important;
+      }
+      .print-shadow-none {
+        box-shadow: none !important;
+        border: 1px solid #e2e8f0 !important;
+      }
+    }
+    .print-only {
+      display: none;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col antialiased">
+
+  <!-- Header Section (Screen Only) -->
+  <header class="bg-slate-900 text-white shadow-lg sticky top-0 z-50 no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <div class="flex items-center space-x-3">
+          <!-- Logo Icon -->
+          <div class="bg-gradient-to-tr from-blue-600 to-indigo-600 p-2.5 rounded-xl shadow-md">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <div>
+            <h1 class="text-lg font-bold tracking-wider">國宸國際商標事務所</h1>
+            <p class="text-xs text-slate-400">2026 全球品牌保護與跨境智財戰略</p>
+          </div>
+        </div>
+        <nav class="hidden md:flex space-x-1">
+          <button onclick="switchTab('guide')" id="nav-guide" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium bg-slate-800 text-blue-400 transition">出海指南</button>
+          <button onclick="switchTab('evaluation')" id="nav-evaluation" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition">智能決策評估</button>
+          <button onclick="switchTab('calculator')" id="nav-calculator" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition">費用試算器</button>
+          <button onclick="switchTab('faq')" id="nav-faq" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition">常見問答</button>
+        </nav>
+        <div>
+          <button onclick="triggerPrint()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center space-x-2 shadow-md transition transform active:scale-95">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>下載/列印 PDF</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Bar (Screen Only) -->
+  <div class="bg-slate-900 border-t border-slate-800 flex justify-around py-3 md:hidden sticky top-20 z-40 no-print shadow-md">
+    <button onclick="switchTab('guide')" id="m-nav-guide" class="flex flex-col items-center space-y-1 text-blue-400">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+      <span class="text-[10px]">指南</span>
+    </button>
+    <button onclick="switchTab('evaluation')" id="m-nav-evaluation" class="flex flex-col items-center space-y-1 text-slate-400">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+      <span class="text-[10px]">評估</span>
+    </button>
+    <button onclick="switchTab('calculator')" id="m-nav-calculator" class="flex flex-col items-center space-y-1 text-slate-400">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 11h.01M12 7h.01M15 11h.01M12 14h.01M4 6a2 2 0 012-2h12a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V6z"></path></svg>
+      <span class="text-[10px]">試算</span>
+    </button>
+    <button onclick="switchTab('faq')" id="m-nav-faq" class="flex flex-col items-center space-y-1 text-slate-400">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <span class="text-[10px]">問答</span>
+    </button>
+  </div>
+
+  <!-- Hero Headline (Screen Only) -->
+  <div class="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white py-12 px-4 text-center sm:px-6 lg:px-8 no-print shadow-inner">
+    <div class="max-w-4xl mx-auto">
+      <span class="bg-blue-500/10 text-blue-300 border border-blue-500/20 px-3 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-4 inline-block">2026 全球化品牌佈局</span>
+      <h2 class="text-3xl sm:text-4xl font-black tracking-tight mb-3">一票通多國，還是逐國去註冊？</h2>
+      <p class="text-md text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
+        馬德里國際商標是品牌跨國的「高速公路」。<br>
+        我們用最白話的分析，幫您做出最省錢、最安全的智財抉擇。
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Content Wrapper (Dynamic Tabs for Screen, Flat Layout for Printing) -->
+  <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 no-print">
+    
+    <!-- Tab 1: BRAND OUTBOUND GUIDE (出海指南) -->
+    <section id="tab-guide" class="tab-content block space-y-12">
+      <!-- Metaphor Banner -->
+      <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 p-6 rounded-r-2xl shadow-sm">
+        <div class="flex items-start space-x-4">
+          <div class="bg-blue-100 p-2.5 rounded-lg text-blue-600">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-slate-900 mb-1">💡 一句話搞懂：什麼是「馬德里商標」？</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">
+              它就像一張商標界的<strong>「全球鐵路通票」</strong>。您不需要向想去的每一個國家（如美國、日本、歐盟）單獨窗口排隊申請。只要向同一個窗口（WIPO 國際局）買一張票，並勾選目的地，就能同時向多個國家提出商標保護！
+            </p>
+            <p class="text-sm text-amber-700 mt-2 font-medium">
+              ⚠️ 注意：通票不等於保證免簽！各國商標局仍會獨立審核。如果某國不給過，它依然會在該國被駁回，不影響其他通過的國家。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pros and Cons Grid -->
+      <div>
+        <h3 class="text-2xl font-black text-slate-900 mb-6 flex items-center space-x-2">
+          <span class="bg-blue-100 text-blue-600 p-1.5 rounded-lg">⚖️</span>
+          <span>馬德里 vs 單國直接申請（白話優缺點）</span>
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Pros -->
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between hover:shadow-md transition">
+            <div>
+              <div class="flex items-center space-x-3 mb-4">
+                <span class="bg-emerald-50 text-emerald-600 p-2 rounded-xl text-lg font-bold">✓</span>
+                <h4 class="text-lg font-bold text-slate-900">馬德里體系的優勢</h4>
+              </div>
+              <ul class="space-y-4">
+                <li class="flex items-start space-x-3">
+                  <span class="text-emerald-500 font-bold mt-0.5">💰</span>
+                  <div>
+                    <h5 class="text-sm font-bold text-slate-800">超級省錢</h5>
+                    <p class="text-xs text-slate-500 mt-0.5">免去各國當地律師費、文件翻譯費。指定的國家越多，省下的錢越驚人！</p>
+                  </div>
+                </li>
+                <li class="flex items-start space-x-3">
+                  <span class="text-emerald-500 font-bold mt-0.5">📂</span>
+                  <div>
+                    <h5 class="text-sm font-bold text-slate-800">手續超簡單</h5>
+                    <p class="text-xs text-slate-500 mt-0.5">只要「一份申請書、一種語言（英文）、繳一次規費」即可搞定全球多國。</p>
+                  </div>
+                </li>
+                <li class="flex items-start space-x-3">
+                  <span class="text-emerald-500 font-bold mt-0.5">🔄</span>
+                  <div>
+                    <h5 class="text-sm font-bold text-slate-800">後期維護省事</h5>
+                    <p class="text-xs text-slate-500 mt-0.5">以後公司換地址、商標轉讓或10年到期延展，只要對 WIPO 辦一次，所有國家同步變更。</p>
+                  </div>
+                </li>
+                <li class="flex items-start space-x-3">
+                  <span class="text-emerald-500 font-bold mt-0.5">🚀</span>
+                  <div>
+                    <h5 class="text-sm font-bold text-slate-800">隨時能追加國家</h5>
+                    <p class="text-xs text-slate-500 mt-0.5">未來如果想開拓新市場，隨時可以在這張通票上「加點指定」，不用重新跑流程。</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 bg-emerald-50/50 p-3 rounded-xl">
+              <span class="text-xs text-emerald-700 font-medium font-bold">👉 最適合：預計保護 3 個國家以上，全球商標樣式統一的企業。</span>
+            </div>
+          </div>
+
+          <!-- Cons / Risks -->
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between hover:shadow-md transition">
+            <div>
+              <div class="flex items-center space-x-3 mb-4">
+                <span class="bg-rose-50 text-rose-600 p-2 rounded-xl text-lg font-bold">⚠️</span>
+                <h4 class="text-lg font-bold text-slate-900">馬德里體系的缺點與風險</h4>
+              </div>
+              <ul class="space-y-4">
+                <li class="flex items-start space-x-3">
+                  <span class="text-rose-500 font-bold mt-0.5">💥</span>
+                  <div>
+                    <h5 class="text-sm font-bold text-slate-800 text-rose-700">「一損俱損」連鎖風險（最關鍵）</h5>
+                    <p class="text-xs text-slate-500 mt-0.5">申請後 5 年內，國際商標會與「母國基礎案」綁定。一旦母國商標被駁回、失效或被撤銷，全球指定國的商標會<strong>一起自動失效（中心打擊）</strong>！</p>
+                  </div>
+                </li>
+                <li class="flex items-start space-x-3">
+                  <span class="text-rose-500 font-bold mt-0.5">📏</span>
+                  <div>
+                    <h5 class="text-sm font-bold text-slate-800">樣式與品項絕對死板</h5>
+                    <p class="text-xs text-slate-500 mt-0.5">商標圖樣、保護的商品範圍，必須跟母國基礎商標「100% 完全一模一樣」，不能依據各國市場調整圖樣或音譯。</p>
+                  </div>
+                </li>
+                <li class="flex items-start space-x-3">
+                  <span class="text-rose-500 font-bold mt-0.5">🛑</span>
+                  <div>
+                    <h5 class="text-sm font-bold text-slate-800">駁回後的處理成本</h5>
+                    <p class="text-xs text-slate-500 mt-0.5">如果在某國遇到審查被駁回，仍必須在當地限期聘請該國律師進行答辯，原本省下來的代理費會因此回吐。</p>
+                  </div>
+                </li>
+                <li class="flex items-start space-x-3">
+                  <span class="text-rose-500 font-bold mt-0.5">📃</span>
+                  <div>
+                    <h5 class="text-sm font-bold text-slate-800">美中等國可能需額外手續</h5>
+                    <p class="text-xs text-slate-500 mt-0.5">有些國家（如中國、美國）實務上不愛承認 WIPO 發的國際註冊證，維權時可能需要額外花錢向當地申請實體證明書。</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 bg-rose-50/50 p-3 rounded-xl">
+              <span class="text-xs text-rose-700 font-medium font-bold">👉 警告：如果您的基礎商標還在審查中、不夠穩固，請勿盲目申辦。</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Taiwan Special Route -->
+      <div class="bg-gradient-to-tr from-slate-900 to-slate-850 text-white rounded-3xl p-8 shadow-xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
+        <div class="relative z-10">
+          <span class="bg-blue-500/20 text-blue-300 border border-blue-500/30 px-3 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-3 inline-block">🇹🇼 台灣企業專屬申請通道</span>
+          <h3 class="text-2xl font-black mb-4">台灣非 WIPO 成員，該怎麼申請？</h3>
+          <p class="text-sm text-slate-300 leading-relaxed max-w-3xl mb-6">
+            因為台灣目前不是馬德里公約締約國，台灣公司在實務上，最普遍、合法且穩定的申請路線為：<br>
+            <span class="text-yellow-400 font-bold">「先向中國大陸國家知識產權局 (CNIPA) 申請商標作為基礎，再以此案透過中國商標局向 WIPO 遞件，指定全球其他國家。」</span>
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-slate-300">
+            <div class="bg-white/5 p-4 rounded-xl border border-white/10">
+              <div class="text-2xl font-black text-blue-400 mb-1">01</div>
+              <h4 class="text-sm font-bold mb-1">建立大陸基礎案</h4>
+              <p class="text-xs text-slate-400">在大陸提出商標申請並取得「受理通知書」（申請中即可，不一定要先註冊下來）。</p>
+            </div>
+            <div class="bg-white/5 p-4 rounded-xl border border-white/10">
+              <div class="text-2xl font-black text-blue-400 mb-1">02</div>
+              <h4 class="text-sm font-bold mb-1">原屬局轉交 WIPO</h4>
+              <p class="text-xs text-slate-400">透過中國知識產權局作為轉交窗口（原屬局），將申請遞交給瑞士日內瓦的 WIPO。</p>
+            </div>
+            <div class="bg-white/5 p-4 rounded-xl border border-white/10">
+              <div class="text-2xl font-black text-blue-400 mb-1">03</div>
+              <h4 class="text-sm font-bold mb-1">分發指定目標國</h4>
+              <p class="text-xs text-slate-400">自由勾選並指定除中國大陸以外的 115 個馬德里議定書成員國進行保護。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparison Matrix -->
+      <div>
+        <h3 class="text-2xl font-black text-slate-900 mb-6">🔍 兩種途徑一分鐘快速對照</h3>
+        <div class="overflow-x-auto bg-white rounded-2xl shadow-sm border border-slate-100">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="bg-slate-900 text-white text-xs tracking-wider font-semibold uppercase">
+                <th class="p-4 rounded-tl-2xl">比較項目</th>
+                <th class="p-4">馬德里國際商標體系 (WIPO)</th>
+                <th class="p-4 rounded-tr-2xl">單國逐一申請（傳統模式）</th>
+              </tr>
+            </thead>
+            <tbody class="text-xs sm:text-sm divide-y divide-slate-100">
+              <tr class="hover:bg-slate-50/50">
+                <td class="p-4 font-bold text-slate-900">適合對象</td>
+                <td class="p-4 text-emerald-700 font-bold">預計申請 3 個國家以上，全球樣式一致。</td>
+                <td class="p-4 text-slate-600">只去 1~2 個國家，或各國需要不同商標設計。</td>
+              </tr>
+              <tr class="hover:bg-slate-50/50">
+                <td class="p-4 font-bold text-slate-900">省錢程度</td>
+                <td class="p-4 text-emerald-700 font-medium">🥇 極高（省去各國當地代理人及翻譯費）。</td>
+                <td class="p-4 text-slate-600">🥈 較低（每個國家都要收一筆當地代辦與翻譯費）。</td>
+              </tr>
+              <tr class="hover:bg-slate-50/50">
+                <td class="p-4 font-bold text-slate-900">安全獨立性</td>
+                <td class="p-4 text-rose-600 font-medium">🚨 5年內有「一損俱損」連帶失效風險。</td>
+                <td class="p-4 text-emerald-700 font-medium">🥇 100% 獨立，各國審查互不干涉。</td>
+              </tr>
+              <tr class="hover:bg-slate-50/50">
+                <td class="p-4 font-bold text-slate-900">樣式彈性</td>
+                <td class="p-4 text-slate-600">🥈 無彈性。文字圖樣、品項必須跟母國完全一致。</td>
+                <td class="p-4 text-emerald-700 font-medium">🥇 彈性極大。可針對各國語言、音譯做客製修改。</td>
+              </tr>
+              <tr class="hover:bg-slate-50/50">
+                <td class="p-4 font-bold text-slate-900">後期管理</td>
+                <td class="p-4 text-emerald-700 font-medium">🥇 超簡單（改名、改地址、延展，一窗口搞定）。</td>
+                <td class="p-4 text-slate-600">🥈 繁瑣（必須到各國局單獨付費申請變更）。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 2: SMART EVALUATION TOOL (智能決策評估) -->
+    <section id="tab-evaluation" class="tab-content hidden space-y-8">
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-slate-100">
+          <h3 class="text-xl sm:text-2xl font-black text-slate-900 mb-2 flex items-center space-x-2">
+            <span class="bg-blue-100 text-blue-600 p-1.5 rounded-lg">🎯</span>
+            <span>品牌國際防禦網：1分鐘智能評估</span>
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-500 mb-6">請點選以下 4 個問題，國宸的智能系統將即時為您計算並推薦最佳註冊途徑！</p>
+          
+          <form id="evalForm" class="space-y-6">
+            <!-- Q1: Target countries count -->
+            <div class="space-y-2">
+              <label class="block text-sm font-bold text-slate-800">Q1. 您的品牌預計要佈局幾個國家/地區？</label>
+              <div class="grid grid-cols-3 gap-3">
+                <button type="button" onclick="setQValue('q_countries', '1-2', this)" class="q-btn-countries border-2 border-slate-200 hover:border-blue-500 py-3 rounded-xl text-sm font-medium transition active:scale-95 text-center">1 ~ 2 個</button>
+                <button type="button" onclick="setQValue('q_countries', '3-5', this)" class="q-btn-countries border-2 border-slate-200 hover:border-blue-500 py-3 rounded-xl text-sm font-medium transition active:scale-95 text-center">3 ~ 5 個</button>
+                <button type="button" onclick="setQValue('q_countries', '6+', this)" class="q-btn-countries border-2 border-slate-200 hover:border-blue-500 py-3 rounded-xl text-sm font-medium transition active:scale-95 text-center">6 個以上</button>
+              </div>
+              <input type="hidden" id="q_countries" value="">
+            </div>
+
+            <!-- Q2: Base mark status -->
+            <div class="space-y-2">
+              <label class="block text-sm font-bold text-slate-800">Q2. 您是否有「母國或大陸基礎商標」？</label>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <button type="button" onclick="setQValue('q_base', 'stable', this)" class="q-btn-base border-2 border-slate-200 hover:border-blue-500 py-3 px-2 rounded-xl text-xs sm:text-sm font-medium transition active:scale-95 text-center leading-snug">
+                  有，且已經註冊成功 (最安全)
+                </button>
+                <button type="button" onclick="setQValue('q_base', 'pending', this)" class="q-btn-base border-2 border-slate-200 hover:border-blue-500 py-3 px-2 rounded-xl text-xs sm:text-sm font-medium transition active:scale-95 text-center leading-snug">
+                  有，但還在申請審查中
+                </button>
+                <button type="button" onclick="setQValue('q_base', 'none', this)" class="q-btn-base border-2 border-slate-200 hover:border-blue-500 py-3 px-2 rounded-xl text-xs sm:text-sm font-medium transition active:scale-95 text-center leading-snug">
+                  沒有，兩邊都還沒申請過
+                </button>
+              </div>
+              <input type="hidden" id="q_base" value="">
+            </div>
+
+            <!-- Q3: Logo customization -->
+            <div class="space-y-2">
+              <label class="block text-sm font-bold text-slate-800">Q3. 是否需要在不同國家微調商標樣式（例如使用各國語言翻譯）？</label>
+              <div class="grid grid-cols-2 gap-3">
+                <button type="button" onclick="setQValue('q_logo', 'yes', this)" class="q-btn-logo border-2 border-slate-200 hover:border-blue-500 py-3 rounded-xl text-sm font-medium transition active:scale-95 text-center">需要（不同國家用不同 Logo）</button>
+                <button type="button" onclick="setQValue('q_logo', 'no', this)" class="q-btn-logo border-2 border-slate-200 hover:border-blue-500 py-3 rounded-xl text-sm font-medium transition active:scale-95 text-center">不需要（全球統一樣式）</button>
+              </div>
+              <input type="hidden" id="q_logo" value="">
+            </div>
+
+            <!-- Q4: Budget/Speed priority -->
+            <div class="space-y-2">
+              <label class="block text-sm font-bold text-slate-800">Q4. 這次商標佈局，您最在乎的是？</label>
+              <div class="grid grid-cols-2 gap-3">
+                <button type="button" onclick="setQValue('q_priority', 'cost', this)" class="q-btn-priority border-2 border-slate-200 hover:border-blue-500 py-3 rounded-xl text-sm font-medium transition active:scale-95 text-center">預算優先，能省則省</button>
+                <button type="button" onclick="setQValue('q_priority', 'safety', this)" class="q-btn-priority border-2 border-slate-200 hover:border-blue-500 py-3 rounded-xl text-sm font-medium transition active:scale-95 text-center">穩健安全，避免各國牽連失效</button>
+              </div>
+              <input type="hidden" id="q_priority" value="">
+            </div>
+
+            <!-- Calculate Button -->
+            <div class="pt-4">
+              <button type="button" onclick="calculateResult()" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 rounded-xl shadow-lg transition transform active:scale-[0.98]">
+                點此查看推薦決策
+              </button>
+            </div>
+          </form>
+
+          <!-- Result Card (Hidden at first) -->
+          <div id="evalResult" class="mt-8 p-6 rounded-2xl border bg-slate-50 border-slate-100 hidden">
+            <h4 class="text-lg font-bold text-slate-900 mb-3">📋 國宸智能決策系統評估結果：</h4>
+            <div class="flex items-center space-x-3 mb-4">
+              <div class="p-3 rounded-full bg-blue-100 text-blue-600 text-2xl" id="resultIcon">💡</div>
+              <div>
+                <span class="text-xs text-slate-400 uppercase font-semibold">為您推薦的最佳渠道</span>
+                <div class="text-xl font-black text-slate-900" id="resultRouteName">計算中...</div>
+              </div>
+            </div>
+            <p class="text-sm text-slate-600 leading-relaxed mb-4" id="resultDetail">分析中...</p>
+            
+            <div class="bg-white p-4 rounded-xl border border-slate-150 space-y-2 text-xs text-slate-500">
+              <div class="font-bold text-slate-700">📌 國宸智財專家的真心建議：</div>
+              <div id="resultExpertAdvice">分析中...</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 3: FEE ESTIMATOR (費用試算器) -->
+    <section id="tab-calculator" class="tab-content hidden space-y-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-6xl mx-auto">
+        
+        <!-- Calculator inputs -->
+        <div class="lg:col-span-7 bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-slate-100">
+          <h3 class="text-xl font-black text-slate-900 mb-2 flex items-center space-x-2">
+            <span class="bg-blue-100 text-blue-600 p-1.5 rounded-lg">🧮</span>
+            <span>2026 馬德里官方規費即時估算</span>
+          </h3>
+          <p class="text-xs text-slate-500 mb-6">依 WIPO（世界智慧財產權組織）官方最新規費標準折算。幣別：瑞士法郎 (CHF) 與新台幣 (TWD)。</p>
+          
+          <div class="space-y-6">
+            <!-- Basic Options -->
+            <div class="space-y-3">
+              <h4 class="text-sm font-bold text-slate-800">步驟 1：選擇您的商標色彩條件</h4>
+              <div class="grid grid-cols-2 gap-3">
+                <button onclick="setCalcBase('bw', 653, this)" class="calc-base-btn border-2 border-blue-500 bg-blue-50/50 py-3 rounded-xl text-xs sm:text-sm font-medium transition text-center text-slate-800">
+                  <div class="font-bold">黑白商標圖樣</div>
+                  <div class="text-[11px] text-slate-500 mt-1">基本規費 653 CHF</div>
+                </button>
+                <button onclick="setCalcBase('color', 903, this)" class="calc-base-btn border-2 border-slate-200 py-3 rounded-xl text-xs sm:text-sm font-medium transition text-center text-slate-800">
+                  <div class="font-bold">彩色商標圖樣</div>
+                  <div class="text-[11px] text-slate-500 mt-1">基本規費 903 CHF</div>
+                </button>
+              </div>
+            </div>
+
+            <!-- Target Selection -->
+            <div class="space-y-3">
+              <div class="flex justify-between items-center">
+                <h4 class="text-sm font-bold text-slate-800">步驟 2：選擇目標市場（可複選）</h4>
+                <button onclick="clearTargetSelection()" class="text-xs text-slate-400 hover:text-blue-500">清空重選</button>
+              </div>
+              <div class="grid grid-cols-2 sm:grid-cols-3 gap-3" id="calcCountriesContainer">
+                <!-- Country checkboxes rendered dynamically by JavaScript -->
+              </div>
+            </div>
+            
+            <div class="bg-amber-50 text-amber-800 border-l-4 border-amber-500 p-4 rounded-r-xl text-xs leading-relaxed space-y-1">
+              <div class="font-bold">💡 費用備註說明：</div>
+              <p>1. 本試算費用為 **WIPO 官方直接收取之國際規費**（2026最新標準），尚未包含中國商標局代收的 250 元人民幣轉交費。</p>
+              <p>2. 此費用不含本事務所、海外各國代理律師的專業代辦服務費，亦不包含後續因商標被他人異議或駁回時的答辯服務費。</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Calculator summary -->
+        <div class="lg:col-span-5 bg-slate-900 text-white p-6 sm:p-8 rounded-3xl shadow-xl flex flex-col justify-between">
+          <div>
+            <span class="bg-slate-800 text-blue-300 border border-slate-700 px-3 py-1 rounded-full text-xs font-semibold tracking-wider uppercase mb-4 inline-block">規費試算清單</span>
+            <h4 class="text-xl font-black mb-6">預估官方費用</h4>
+            
+            <div class="space-y-4 text-sm border-b border-slate-800 pb-6">
+              <div class="flex justify-between">
+                <span class="text-slate-400">基礎規費 (WIPO Base Fee)</span>
+                <span id="summaryBaseFee">653 CHF</span>
+              </div>
+              <div class="space-y-2">
+                <span class="text-slate-400 block">已選目標國家規費</span>
+                <div class="max-h-40 overflow-y-auto no-scrollbar space-y-1.5 text-xs text-slate-300 pl-3 border-l-2 border-slate-800" id="summarySelectedList">
+                  <span class="text-slate-500 italic block">尚未選擇指定國家...</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 space-y-4">
+            <div class="flex justify-between items-baseline">
+              <span class="text-sm text-slate-400 font-bold">預估官方總規費 (CHF)</span>
+              <span class="text-3xl font-black text-white" id="summaryTotalCHF">653 CHF</span>
+            </div>
+            <div class="flex justify-between items-baseline border-t border-slate-800 pt-3">
+              <span class="text-xs text-slate-400">約合新台幣 (TWD) <span class="text-[10px] block mt-0.5">（匯率以 1 CHF ≈ 35.8 TWD 估算）</span></span>
+              <span class="text-2xl font-black text-blue-400" id="summaryTotalTWD">TWD 23,377</span>
+            </div>
+            
+            <button onclick="triggerPrint()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl text-center shadow-lg transition transform active:scale-[0.98] text-sm block">
+              下載本費用評估報告 PDF
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tab 4: FAQ (常見問答) -->
+    <section id="tab-faq" class="tab-content hidden space-y-6 max-w-4xl mx-auto">
+      <h3 class="text-2xl font-black text-slate-900 mb-6 flex items-center space-x-2">
+        <span class="bg-blue-100 text-blue-600 p-1.5 rounded-lg">❓</span>
+        <span>企業決策層最在意的四個靈魂提問</span>
+      </h3>
+      
+      <!-- Accordion list -->
+      <div class="space-y-4">
+        <div class="bg-white border border-slate-100 rounded-2xl overflow-hidden hover:shadow-sm transition">
+          <button onclick="toggleFaq(1)" class="w-full text-left p-5 font-bold text-slate-800 flex justify-between items-center focus:outline-none">
+            <span>Q1. 我們是台灣在地公司，能不能直接去申請馬德里商標？</span>
+            <span class="text-slate-400" id="faq-icon-1">＋</span>
+          </button>
+          <div id="faq-ans-1" class="hidden p-5 border-t border-slate-50 bg-slate-50/50 text-slate-600 text-sm leading-relaxed">
+            <strong>不行，無法直接送件。</strong> 台灣因為不是 WIPO 馬德里協約的締約國，所以台灣智慧財產局無法直接幫您向 WIPO 送件。
+            <br><br>
+            <span class="text-blue-600 font-semibold">解方：</span> 台灣企業最合法的路徑是：先在中國大陸送交一個商標案當作「基礎案」，再透過中國國家知識產權局轉送 WIPO，便可順利勾選全球 115 個馬德里成員國。
+          </div>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-2xl overflow-hidden hover:shadow-sm transition">
+          <button onclick="toggleFaq(2)" class="w-full text-left p-5 font-bold text-slate-800 flex justify-between items-center focus:outline-none">
+            <span>Q2. 什麼是「基礎商標連動風險（一損俱損）」？</span>
+            <span class="text-slate-400" id="faq-icon-2">＋</span>
+          </button>
+          <div id="faq-ans-2" class="hidden p-5 border-t border-slate-50 bg-slate-50/50 text-slate-600 text-sm leading-relaxed">
+            這是馬德里商標唯一的「死穴」。在取得國際註冊後的 <strong>5 年內</strong>，您的國際商標會與一開始作為申請基底的「母國/大陸基礎案」綁死。
+            <br><br>
+            這期間如果基礎商標被撤銷、宣告無效、或是被商標局駁回，您在美國、日本、歐盟等全球指定國的商標，會<strong>像骨牌一樣全部同步失效</strong>。滿 5 年之後，各國商標才會脫離綁定、獲得獨立效力。
+          </div>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-2xl overflow-hidden hover:shadow-sm transition">
+          <button onclick="toggleFaq(3)" class="w-full text-left p-5 font-bold text-slate-800 flex justify-between items-center focus:outline-none">
+            <span>Q3. 被某個國家駁回了，會導致全球都失敗嗎？</span>
+            <span class="text-slate-400" id="faq-icon-3">＋</span>
+          </button>
+          <div id="faq-ans-3" class="hidden p-5 border-t border-slate-50 bg-slate-50/50 text-slate-600 text-sm leading-relaxed">
+            <strong>不會。</strong> 馬德里的駁回是針對各別國家的。例如：美國商標局駁回您，只代表您無法在美國獲得保護，歐盟、日本、澳洲等其他通過的國家權益完全不會受到牽連。
+            <br><br>
+            但是，一旦遇上某國「臨時駁回通知（Provisional Refusal）」，如果您想力爭，就必須在期限內自費委託該國當地的執業律師出面答辯，這時會產生額外的在地律師費用。
+          </div>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-2xl overflow-hidden hover:shadow-sm transition">
+          <button onclick="toggleFaq(4)" class="w-full text-left p-5 font-bold text-slate-800 flex justify-between items-center focus:outline-none">
+            <span>Q4. 面對「一損俱損」風險，國宸有什麼專業建議？</span>
+            <span class="text-slate-400" id="faq-icon-4">＋</span>
+          </button>
+          <div id="faq-ans-4" class="hidden p-5 border-t border-slate-50 bg-slate-50/50 text-slate-600 text-sm leading-relaxed">
+            國宸推薦採行<strong>「核心主力市場單國申請，新興儲備市場走馬德里」</strong>的黃金組合戰略：
+            <ul class="list-disc pl-5 mt-2 space-y-1.5">
+              <li>對於帶來主要營收的重中之重市場（例如主要的美國、歐盟、中國），建議直接辦理「單國逐一註冊」，完全排除連鎖失效的中心打擊風險，權利最穩固。</li>
+              <li>對於想要提早卡位、保護、做產品備份的二線或潛在市場，走馬德里系統以極低成本大範圍保護，最划算。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= PRINTING REPORT ONLY CONTAINER ================= -->
+  <!-- This hidden container is optimized strictly for high-quality standard A4 PDF Output -->
+  <div class="print-only max-w-4xl mx-auto p-12 bg-white text-slate-900 text-sm leading-relaxed" id="pdf-report-layout">
+    
+    <!-- PDF Header -->
+    <div class="border-b-4 border-slate-950 pb-6 mb-8 flex justify-between items-end">
+      <div>
+        <div class="text-xs uppercase tracking-widest text-slate-500 font-bold">Confidential Strategic Report</div>
+        <h1 class="text-2xl font-black text-slate-950">2026 馬德里商標全球戰略評估報告</h1>
+        <p class="text-xs text-slate-500 mt-1">國宸國際商標事務所 · 全球品牌智財規劃小組製作</p>
+      </div>
+      <div class="text-right">
+        <div class="font-bold text-slate-900 text-md">國宸國際商標事務所</div>
+        <div class="text-xs text-slate-500">GUO-CHEN IP FIRM</div>
+      </div>
+    </div>
+
+    <!-- Client Assessment Summary -->
+    <div class="mb-8 p-6 bg-slate-50 rounded-xl print-shadow-none">
+      <h3 class="text-sm font-black text-slate-900 mb-4 border-b pb-2 uppercase tracking-wider">一、 客戶品牌背景評估診斷</h3>
+      <div class="grid grid-cols-2 gap-4 text-xs">
+        <div>
+          <span class="text-slate-500 block">預計保護規模：</span>
+          <span class="font-bold text-slate-900" id="pdf_q_countries">未評估</span>
+        </div>
+        <div>
+          <span class="text-slate-500 block">基礎商標狀態：</span>
+          <span class="font-bold text-slate-900" id="pdf_q_base">未評估</span>
+        </div>
+        <div class="mt-2">
+          <span class="text-slate-500 block">各國商標多樣性：</span>
+          <span class="font-bold text-slate-900" id="pdf_q_logo">未評估</span>
+        </div>
+        <div class="mt-2">
+          <span class="text-slate-500 block">智財防禦首要訴求：</span>
+          <span class="font-bold text-slate-900" id="pdf_q_priority">未評估</span>
+        </div>
+      </div>
+
+      <!-- Live Recommendation for client PDF -->
+      <div class="mt-6 pt-4 border-t border-slate-200">
+        <span class="text-xs text-slate-500 block">專家團隊推薦註冊管道：</span>
+        <div class="text-md font-extrabold text-blue-800 mt-1" id="pdf_rec_route">請在網站端完成「智能決策評估」以載入專屬推薦</div>
+        <p class="text-xs text-slate-600 mt-1.5" id="pdf_rec_detail">此報告將在您於網頁端完成決策評估後，同步生成針對您品牌的客製化防禦戰略與風險提示。</p>
+      </div>
+    </div>
+
+    <!-- System core information for client to read -->
+    <div class="space-y-6">
+      <div class="card-break">
+        <h3 class="text-sm font-black text-slate-900 mb-3 border-b pb-1 uppercase tracking-wider">二、 台灣企業馬德里商標申請路徑</h3>
+        <p class="text-xs text-slate-600 leading-relaxed mb-3">
+          由於台灣目前非 WIPO 成員國，台灣申請人需經由「先取得中國大陸商標基礎案」之路徑，再透過大陸原屬局（國家知識產權局商標局）將申請案轉交 WIPO 進行國際註冊。
+        </p>
+        <div class="grid grid-cols-3 gap-3 text-xs">
+          <div class="border p-3 rounded-lg">
+            <span class="font-bold text-slate-900 block mb-1">1. 取得大陸基礎案</span>
+            <span class="text-slate-500">商標樣式、名稱及品項範圍必須與基礎案 100% 同步一致。</span>
+          </div>
+          <div class="border p-3 rounded-lg">
+            <span class="font-bold text-slate-900 block mb-1">2. WIPO 形式審核</span>
+            <span class="text-slate-500">WIPO 審核無誤後，即發放 WIPO 國際商標註冊證。</span>
+          </div>
+          <div class="border p-3 rounded-lg">
+            <span class="font-bold text-slate-900 block mb-1">3. 各指定國實質審查</span>
+            <span class="text-slate-500">各目標國依本國法審查。核准即享保護，被駁回則需答辯。</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-break">
+        <h3 class="text-sm font-black text-slate-900 mb-3 border-b pb-1 uppercase tracking-wider">三、 國宸專家關鍵風險提示 (Risk Analysis)</h3>
+        <ul class="space-y-3 text-xs text-slate-600">
+          <li class="flex items-start space-x-2">
+            <span class="text-rose-600 font-extrabold">▶ 一損俱損連鎖風險（中心打擊）</span>
+            <span>國際註冊起 5 年內，若大陸基礎案因任何原因（駁回、無效）而失效，全球指定國之保護將一起失效。</span>
+          </li>
+          <li class="flex items-start space-x-2">
+            <span class="text-amber-600 font-extrabold">▶ 駁回答辯救濟成本</span>
+            <span>若指定國商標局提出臨時核駁，必須於限期內委託該國當地律師進行申訴，會產生額外代理人費用。</span>
+          </li>
+          <li class="flex items-start space-x-2">
+            <span class="text-slate-900 font-extrabold">▶ 品項審查嚴格性</span>
+            <span>部分國家（如美國）對商品品項的名稱限制極細。馬德里不可針對單一國家調整品項，易在美引發不合規駁回。</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-break"></div>
+
+      <!-- Live Fee Estimate for client PDF -->
+      <div class="card-break">
+        <h3 class="text-sm font-black text-slate-900 mb-3 border-b pb-1 uppercase tracking-wider">四、 官方基本規費估算表 (CHF & TWD)</h3>
+        <div class="bg-slate-50 p-4 rounded-xl print-shadow-none mb-4">
+          <div class="flex justify-between font-bold text-slate-900 text-xs mb-2">
+            <span>規費明細項目</span>
+            <span>官方預估金額 (CHF)</span>
+          </div>
+          <div class="divide-y text-xs text-slate-600" id="pdf_fee_table_rows">
+            <div class="flex justify-between py-1.5">
+              <span>WIPO 基礎基本規費</span>
+              <span>653 CHF</span>
+            </div>
+            <!-- Dynamic rows inserted here -->
+          </div>
+          <div class="flex justify-between border-t-2 border-slate-300 pt-3 mt-3 font-black text-slate-950 text-sm">
+            <span>預計折合新台幣總計:</span>
+            <span id="pdf_total_twd">TWD 23,377</span>
+          </div>
+        </div>
+        <p class="text-[10px] text-slate-400 leading-relaxed">
+          * 本表估計之費用僅為 WIPO 直接收取之官費（以 1 CHF ≈ 35.8 TWD 折算）。尚未包含兩岸專利商標事務所、各指定國當地律師代理代辦費，實際費用將依 WIPO 與銀行即時匯率為準。
+        </p>
+      </div>
+      
+      <div class="card-break border-t pt-8 text-center text-xs text-slate-400">
+        <p>本報告由國宸國際商標事務所智能估算系統生成。如有更詳細的跨境智財保護需求，請隨時與我們聯繫。</p>
+        <p class="mt-1">服務熱線：+886 2 2585 6000 | 諮詢信箱：service@guo-chen.com.tw</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section (Screen Only) -->
+  <footer class="bg-slate-900 text-slate-400 py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-800 text-center text-xs no-print">
+    <div class="max-w-7xl mx-auto space-y-3">
+      <p class="font-semibold text-slate-300">國宸國際商標事務所</p>
+      <p>專利申請 · 商標註冊 · 著作權登記 · 跨境全球品牌維權 · 法律諮詢</p>
+      <p class="text-slate-500">© 2026 Guo-Chen Intellectual Property Agent. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="fixed bottom-6 right-6 bg-slate-900 text-white px-5 py-3 rounded-xl shadow-2xl border border-slate-700 max-w-sm flex items-center space-x-3 transition transform translate-y-20 opacity-0 pointer-events-none z-50">
+    <span id="toast-icon" class="text-blue-400 text-lg">💡</span>
+    <span id="toast-msg" class="text-xs font-semibold">通知內容</span>
+  </div>
+
+  <!-- ================= JAVASCRIPT LOGIC ================= -->
+  <script>
+    // 1. Data Store for Calculator (2026 WIPO Registry Reference)
+    const countriesData = [
+      { id: 'us', name: '美國 (USA)', fee: 320, desc: '對商品品項描述要求極度挑剔' },
+      { id: 'eu', name: '歐盟 (EU)', fee: 853, desc: '涵蓋 27 個成員國，CP值極高' },
+      { id: 'jp', name: '日本 (Japan)', fee: 290, desc: '審核中規中矩，時間約 1 年' },
+      { id: 'kr', name: '韓國 (Korea)', fee: 275, desc: '審核節奏快，保護環境良好' },
+      { id: 'gb', name: '英國 (UK)', fee: 245, desc: '脫歐後需單獨指定，審查迅速' },
+      { id: 'cn', name: '中國 (China)', fee: 140, desc: '不允許微調子類別，常有不合規疑慮' },
+      { id: 'au', name: '澳洲 (Australia)', fee: 230, desc: '無基礎駁回時註冊效率高' },
+      { id: 'ca', name: '加拿大 (Canada)', fee: 310, desc: '加入馬德里後，近年最受歡迎指定地' },
+      { id: 'sg', name: '新加坡 (Singapore)', fee: 260, desc: '東南亞核心，智財體制極其完善' }
+    ];
+
+    let calcState = {
+      baseType: 'bw', // 'bw' or 'color'
+      baseFee: 653,
+      selectedTargets: []
+    };
+
+    let evalState = {
+      q_countries: '',
+      q_base: '',
+      q_logo: '',
+      q_priority: ''
+    };
+
+    // 2. Initialize App
+    window.onload = function() {
+      renderCalculatorCountries();
+      updateCalculatorSummary();
+    };
+
+    // 3. Tab Switching Router
+    function switchTab(tabId) {
+      // Hide all content blocks
+      document.querySelectorAll('.tab-content').forEach(block => {
+        block.classList.add('hidden');
+        block.classList.remove('block');
+      });
+      
+      // Show selected tab content
+      document.getElementById('tab-' + tabId).classList.remove('hidden');
+      document.getElementById('tab-' + tabId).classList.add('block');
+
+      // Update Navigation styling (desktop)
+      document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.classList.remove('bg-slate-800', 'text-blue-400');
+        btn.classList.add('text-slate-300', 'hover:text-white', 'hover:bg-slate-800');
+      });
+      const activeNav = document.getElementById('nav-' + tabId);
+      if (activeNav) {
+        activeNav.classList.remove('text-slate-300', 'hover:text-white', 'hover:bg-slate-800');
+        activeNav.classList.add('bg-slate-800', 'text-blue-400');
+      }
+
+      // Update Navigation styling (mobile)
+      const mobileNavButtons = {
+        guide: document.getElementById('m-nav-guide'),
+        evaluation: document.getElementById('m-nav-evaluation'),
+        calculator: document.getElementById('m-nav-calculator'),
+        faq: document.getElementById('m-nav-faq')
+      };
+      
+      Object.keys(mobileNavButtons).forEach(key => {
+        if (mobileNavButtons[key]) {
+          mobileNavButtons[key].classList.remove('text-blue-400');
+          mobileNavButtons[key].classList.add('text-slate-400');
+        }
+      });
+      if (mobileNavButtons[tabId]) {
+        mobileNavButtons[tabId].classList.remove('text-slate-400');
+        mobileNavButtons[tabId].classList.add('text-blue-400');
+      }
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // 4. Notification Toast Utility (No Browser Alerts!)
+    function showToast(message, icon = '💡') {
+      const toast = document.getElementById('toast');
+      document.getElementById('toast-icon').innerText = icon;
+      document.getElementById('toast-msg').innerText = message;
+      
+      toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+      
+      setTimeout(() => {
+        toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+      }, 3500);
+    }
+
+    // 5. Evaluation Form Logic
+    function setQValue(questionId, value, buttonEl) {
+      // Save state
+      evalState[questionId] = value;
+      document.getElementById(questionId).value = value;
+
+      // Reset button styles for this question
+      let btnClass = '';
+      if (questionId === 'q_countries') btnClass = 'q-btn-countries';
+      if (questionId === 'q_base') btnClass = 'q-btn-base';
+      if (questionId === 'q_logo') btnClass = 'q-btn-logo';
+      if (questionId === 'q_priority') btnClass = 'q-btn-priority';
+
+      document.querySelectorAll('.' + btnClass).forEach(btn => {
+        btn.classList.remove('border-blue-500', 'bg-blue-50/50', 'text-blue-600');
+        btn.classList.add('border-slate-200', 'text-slate-800');
+      });
+
+      // Highlight active button
+      buttonEl.classList.remove('border-slate-200', 'text-slate-800');
+      buttonEl.classList.add('border-blue-500', 'bg-blue-50/50', 'text-blue-600');
+
+      // Update interactive PDF data holding section
+      updatePDFDataHolders();
+    }
+
+    function calculateResult() {
+      // Validate inputs
+      if (!evalState.q_countries || !evalState.q_base || !evalState.q_logo || !evalState.q_priority) {
+        showToast('請先點選填寫完這 4 個問題喔！', '⚠️');
+        return;
+      }
+
+      const resultCard = document.getElementById('evalResult');
+      const routeName = document.getElementById('resultRouteName');
+      const detail = document.getElementById('resultDetail');
+      const advice = document.getElementById('resultExpertAdvice');
+      const icon = document.getElementById('resultIcon');
+
+      resultCard.classList.remove('hidden');
+
+      // 6. Decision Tree Matrix
+      if (evalState.q_base === 'none') {
+        // No basic mark is a dealbreaker for Madrid!
+        icon.innerText = '🛡️';
+        routeName.innerText = '單國逐一註冊模式（或請先補辦基礎申請）';
+        detail.innerText = '由於您目前「完全沒有在大陸或母國的基礎商標（申請案也算）」，依國際公約，您現階段「不具備申請馬德里商標的資格」。為快速保障海外市場，建議直接採取「單國逐一申請」，或盡快聯絡國宸辦理中國大陸商標作為基本案。';
+        advice.innerText = '如果您想繞過大陸基礎商標案，直接針對特定主力市場（如美國、日本）單國逐一提交申請，這是最靈活、也最不會被連累一損俱損的絕佳方案。';
+      } 
+      else if (evalState.q_logo === 'yes') {
+        // Localized logo needs single country route
+        icon.innerText = '🎨';
+        routeName.innerText = '單國獨立註冊模式（強烈推薦）';
+        detail.innerText = '因為您在不同國家需要使用「不同語言、商標圖樣（如翻譯或特別排版）」。馬德里體系要求國際商標必須與起初登記的商標「100% 完全一致」，毫無變通彈性。若您注重在地化品牌形象，只有走「單國直接註冊」，才能在美、日、歐盟分別提交客製化的 Logo 圖樣。';
+        advice.innerText = '品牌出海，在地化的 Logo（例如加入英文或當地語系）能大幅提高消費者認同感。使用單國獨立申請，除了樣式彈性，也能完全避免「一國被駁回，拖累他國」的牽連風險。';
+      }
+      else if (evalState.q_countries === '1-2' && evalState.q_priority === 'safety') {
+        // Few countries + high safety priority
+        icon.innerText = '🔒';
+        routeName.innerText = '核心主力市場：單國直接申請';
+        detail.innerText = '您預計保護的市場較少（1-2個），且期望「排除任何連鎖失效風險」。如果此時強行走馬德里，會面臨5年內若基礎案遭撤銷，國際保護也一起報銷的重大風險。在目標國少於 3 個的前提下，直接逐一向美、日、歐辦理單國申請，費用其實差不多，但權利絕對獨立、最安全！';
+        advice.innerText = '若您的核心出口國僅有美、日等關鍵市場，直接申請單國商標能加快當地的審理進度，且取證後可以直接在當地當作有力法律憑證。';
+      }
+      else {
+        // High country count or extreme cost sensitive + has base + single logo
+        icon.innerText = '✈️';
+        routeName.innerText = '馬德里國際商標體系（完美適配，首選推薦）';
+        detail.innerText = '恭喜！您目前的品牌情況非常適合使用「馬德里國際商標體系」。您需要保護多個國家（3個以上），且商標樣式全球一致、有穩定的大陸基礎案。透過大陸商標局向 WIPO 提交國際案，您只需遞交一份文件、支付一次規費，就能在超多目標市場卡位保護。預估將為您省下 50% 以上的跨國代理與翻譯規費！';
+        advice.innerText = '此方式最具成本效益。國宸專家特別提醒：由於國際案與您的大陸基礎商標在 5 年內存在「一損俱損」的連帶風險，請務必妥善維護您的大陸基礎商標，避免因他人撤銷或異議而影響全球保護。';
+      }
+
+      // Update interactive PDF results holding section
+      updatePDFDataHolders();
+      showToast('智能決策評估已完成！已同步更新至 PDF 報告。', '✅');
+
+      // Scroll smoothly to results card
+      resultCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    // Update PDF hidden view dynamically as client fills in online form
+    function updatePDFDataHolders() {
+      const c_map = { '1-2': '1 ~ 2 個國家地區', '3-5': '3 ~ 5 個國家地區', '6+': '6 個以上跨境市場' };
+      const b_map = { 'stable': '已註冊成功，極度穩固', 'pending': '申請中（已有受理通知書）', 'none': '無任何母國/大陸基礎案' };
+      const l_map = { 'yes': '需要為各國微調（不同語系 Logo）', 'no': '全球統一商標，無須微調' };
+      const p_map = { 'cost': '預算導向，極致節省成本', 'safety': '安全穩健，排除連帶風險' };
+
+      document.getElementById('pdf_q_countries').innerText = c_map[evalState.q_countries] || '未評估';
+      document.getElementById('pdf_q_base').innerText = b_map[evalState.q_base] || '未評估';
+      document.getElementById('pdf_q_logo').innerText = l_map[evalState.q_logo] || '未評估';
+      document.getElementById('pdf_q_priority').innerText = p_map[evalState.q_priority] || '未評估';
+
+      const pdfRecRoute = document.getElementById('pdf_rec_route');
+      const pdfRecDetail = document.getElementById('pdf_rec_detail');
+
+      if (evalState.q_countries && evalState.q_base && evalState.q_logo && evalState.q_priority) {
+        const routeName = document.getElementById('resultRouteName').innerText;
+        const routeDetail = document.getElementById('resultDetail').innerText;
+        pdfRecRoute.innerText = routeName;
+        pdfRecDetail.innerText = routeDetail;
+      }
+    }
+
+    // 7. Interactive Fee Estimator Logic
+    function renderCalculatorCountries() {
+      const container = document.getElementById('calcCountriesContainer');
+      container.innerHTML = '';
+      
+      countriesData.forEach(country => {
+        const item = document.createElement('div');
+        item.className = 'relative flex items-center justify-between p-3.5 border-2 border-slate-200 rounded-xl hover:border-blue-500 cursor-pointer transition select-none';
+        item.id = `calc-country-${country.id}`;
+        item.onclick = () => toggleTargetCountry(country.id);
+        
+        item.innerHTML = `
+          <div class="flex-1 pr-2">
+            <span class="text-xs sm:text-sm font-bold text-slate-800 block">${country.name}</span>
+            <span class="text-[10px] text-slate-400 block mt-0.5">${country.desc}</span>
+          </div>
+          <div class="text-right">
+            <span class="text-xs font-black text-slate-950 block">${country.fee} CHF</span>
+            <div class="checkbox-box w-4 h-4 rounded border-2 border-slate-300 ml-auto mt-1 flex items-center justify-center bg-white">
+              <span class="checkmark hidden text-[10px] text-blue-600 font-bold">✓</span>
+            </div>
+          </div>
+        `;
+        container.appendChild(item);
+      });
+    }
+
+    function toggleTargetCountry(countryId) {
+      const index = calcState.selectedTargets.indexOf(countryId);
+      const card = document.getElementById(`calc-country-${countryId}`);
+      const checkmark = card.querySelector('.checkmark');
+      const checkboxBox = card.querySelector('.checkbox-box');
+      
+      if (index > -1) {
+        calcState.selectedTargets.splice(index, 1);
+        card.classList.remove('border-blue-500', 'bg-blue-50/20');
+        card.classList.add('border-slate-200');
+        checkmark.classList.add('hidden');
+        checkboxBox.classList.remove('border-blue-500', 'bg-blue-50');
+      } else {
+        calcState.selectedTargets.push(countryId);
+        card.classList.remove('border-slate-200');
+        card.classList.add('border-blue-500', 'bg-blue-50/20');
+        checkmark.classList.remove('hidden');
+        checkboxBox.classList.add('border-blue-500', 'bg-blue-50');
+      }
+
+      updateCalculatorSummary();
+    }
+
+    function setCalcBase(type, fee, buttonEl) {
+      calcState.baseType = type;
+      calcState.baseFee = fee;
+
+      document.querySelectorAll('.calc-base-btn').forEach(btn => {
+        btn.classList.remove('border-blue-500', 'bg-blue-50/50');
+        btn.classList.add('border-slate-200');
+      });
+
+      buttonEl.classList.remove('border-slate-200');
+      buttonEl.classList.add('border-blue-500', 'bg-blue-50/50');
+
+      updateCalculatorSummary();
+    }
+
+    function clearTargetSelection() {
+      calcState.selectedTargets = [];
+      document.querySelectorAll('#calcCountriesContainer > div').forEach(card => {
+        card.classList.remove('border-blue-500', 'bg-blue-50/20');
+        card.classList.add('border-slate-200');
+        card.querySelector('.checkmark').classList.add('hidden');
+        card.querySelector('.checkbox-box').classList.remove('border-blue-500', 'bg-blue-50');
+      });
+      updateCalculatorSummary();
+    }
+
+    function updateCalculatorSummary() {
+      const baseFeeEl = document.getElementById('summaryBaseFee');
+      const listEl = document.getElementById('summarySelectedList');
+      const totalCHFEl = document.getElementById('summaryTotalCHF');
+      const totalTWDEl = document.getElementById('summaryTotalTWD');
+
+      baseFeeEl.innerText = `${calcState.baseFee} CHF`;
+
+      let countriesFeeSum = 0;
+      listEl.innerHTML = '';
+      
+      if (calcState.selectedTargets.length === 0) {
+        listEl.innerHTML = '<span class="text-slate-500 italic block">尚未選擇指定國家...</span>';
+      } else {
+        calcState.selectedTargets.forEach(targetId => {
+          const item = countriesData.find(c => c.id === targetId);
+          if (item) {
+            countriesFeeSum += item.fee;
+            const row = document.createElement('div');
+            row.className = 'flex justify-between items-center py-0.5';
+            row.innerHTML = `
+              <span>${item.name}</span>
+              <span class="font-bold">${item.fee} CHF</span>
+            `;
+            listEl.appendChild(row);
+          }
+        });
+      }
+
+      const finalCHF = calcState.baseFee + countriesFeeSum;
+      const finalTWD = Math.round(finalCHF * 35.8);
+
+      totalCHFEl.innerText = `${finalCHF} CHF`;
+      totalTWDEl.innerText = `TWD ${finalTWD.toLocaleString()}`;
+
+      updatePDFCalculations(calcState.baseFee, countriesFeeSum, finalCHF, finalTWD);
+    }
+
+    function updatePDFCalculations(baseFee, countriesFeeSum, totalCHF, totalTWD) {
+      const pdfRows = document.getElementById('pdf_fee_table_rows');
+      const pdfTotalTwd = document.getElementById('pdf_total_twd');
+
+      pdfRows.innerHTML = '';
+
+      const baseRow = document.createElement('div');
+      baseRow.className = 'flex justify-between py-1.5 border-b';
+      baseRow.innerHTML = `
+        <span class="font-bold">WIPO 國際基本官費 (${calcState.baseType === 'bw' ? '黑白' : '彩色'})</span>
+        <span>${baseFee} CHF</span>
+      `;
+      pdfRows.appendChild(baseRow);
+
+      calcState.selectedTargets.forEach(targetId => {
+        const item = countriesData.find(c => c.id === targetId);
+        if (item) {
+          const row = document.createElement('div');
+          row.className = 'flex justify-between py-1.5 border-b';
+          row.innerHTML = `
+            <span>指定國官費：${item.name}</span>
+            <span>${item.fee} CHF</span>
+          `;
+          pdfRows.appendChild(row);
+        }
+      });
+
+      const totalRow = document.createElement('div');
+      totalRow.className = 'flex justify-between py-2 font-bold bg-slate-100 px-2 rounded mt-1';
+      totalRow.innerHTML = `
+        <span>國際規費合計 (CHF)</span>
+        <span>${totalCHF} CHF</span>
+      `;
+      pdfRows.appendChild(totalRow);
+
+      pdfTotalTwd.innerText = `TWD ${totalTWD.toLocaleString()}`;
+    }
+
+    // 8. FAQ Accordion Action
+    function toggleFaq(index) {
+      const ans = document.getElementById(`faq-ans-${index}`);
+      const icon = document.getElementById(`faq-icon-${index}`);
+      
+      if (ans.classList.contains('hidden')) {
+        ans.classList.remove('hidden');
+        ans.classList.add('block');
+        icon.innerText = '－';
+      } else {
+        ans.classList.remove('block');
+        ans.classList.add('hidden');
+        icon.innerText = '＋';
+      }
+    }
+
+    // 9. Standard High-Quality A4 Print Action (Direct-to-PDF save supported)
+    function triggerPrint() {
+      showToast('正在調用列印與 PDF 生成引擎... 請在對話框中選擇「另存為 PDF」。', '🖨️');
+      
+      setTimeout(() => {
+        window.print();
+      }, 500);
+    }
+  </script>
+</body>
+</html>
